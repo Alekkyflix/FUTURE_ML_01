@@ -7,7 +7,13 @@ This project implements a sales forecasting model using historical data from `Sa
 ## Key Features
 
 - **Data Preprocessing**: Aggregates daily sales data into monthly totals for stable time-series analysis.
+
+![Data Preprocessing Visualization](image.png)
+
 - **Forecasting Model**: Utilizes **Holt-Winters Exponential Smoothing** to capture both trend and seasonality in the sales data.
+
+![Forecasting Model Visualization](image-1.png)
+
 - **Visualization**: Provides clear plots of historical sales, model validation (test predictions), and future forecasts.
 - **Business Insights**: Includes interpretations of the forecasts and actionable business recommendations.
 
@@ -52,7 +58,3 @@ The notebook generates a 24-month sales forecast. The visualizations show the pr
 
 - **Inventory Planning**: Stocking up in anticipation of high-demand months.
 - **Resource Allocation**: Adjusting staffing and marketing budgets based on predicted revenue.
-
-## License
-
-[Choose a license or state "Private"]
